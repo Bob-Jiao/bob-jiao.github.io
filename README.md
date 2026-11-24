@@ -1,2 +1,3 @@
-# bob-jiao.github.io
-Personal website of Guanbo Jiao.
+# Guanbo Jiao · Research Atlas
+
+Personal academic homepage: https://bob-jiao.github.io/

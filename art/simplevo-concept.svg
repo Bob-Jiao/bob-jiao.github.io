@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640" fill="none">
+  <title>SimplEvo — an atlas of memory</title>
+  <desc>Episode traces arc into two suspended volumes, one open and one bound, against a dark blue star field.</desc>
+  <defs>
+    <radialGradient id="night" cx="0.53" cy="0.46" r="0.76">
+      <stop stop-color="#23445a"/><stop offset=".56" stop-color="#132f43"/><stop offset="1" stop-color="#091925"/>
+    </radialGradient>
+    <linearGradient id="leaf" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#e8d8ac"/><stop offset=".48" stop-color="#cdb888"/><stop offset="1" stop-color="#857657"/>
+    </linearGradient>
+    <linearGradient id="verso" x1="0" y1="1" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#6d6656"/><stop offset=".45" stop-color="#c8b489"/><stop offset="1" stop-color="#e8d7aa"/>
+    </linearGradient>
+    <pattern id="dust" width="103" height="77" patternUnits="userSpaceOnUse">
+      <g fill="#c0ccca"><circle cx="14" cy="29" r="1.3"/><circle cx="73" cy="67" r=".8"/><circle cx="41" cy="4" r=".8"/></g>
+      <path d="m90 11 1.5-.5m-63 50 1.9-.7" stroke="#cbab79" stroke-width="1.3"/>
+    </pattern>
+    <pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
+      <path d="M0 0v9" stroke="#203641" stroke-width="1"/>
+    </pattern>
+    <g id="star" fill="#f5dbaa">
+      <path d="M0-9C1-2 2-1 8 0 2 1 1 2 0 9-1 2-2 1-8 0-2-1-1-2 0-9Z"/>
+    </g>
+  </defs>
+  <path fill="url(#night)" d="M0 0h960v640H0z"/>
+  <path fill="url(#dust)" opacity=".53" d="M0 0h960v640H0z"/>
+  <!-- The incomplete engraved rings leave room for the incoming paths. -->
+  <g stroke="#96aeb8" opacity=".28" stroke-width="1.4">
+    <circle cx="505" cy="323" r="221" stroke-dasharray="560 44 689 96"/>
+    <circle cx="505" cy="323" r="228" stroke-dasharray="3 8"/>
+    <path d="M344 125a255 255 0 0 1 397 289M251 354a255 255 0 0 0 278 223"/>
+    <path d="m540 65-2 13m123 39-7 10m96 99-12 5m27 106-11-1m-182 228-3-12m-182-7 5-12m-115-88 10-5"/>
+  </g>
+  <!-- Individual episodes: three related, but visibly distinct, trajectories. -->
+  <g stroke-linecap="round">
+    <path d="M-18 462C120 453 110 349 191 307S285 322 318 280 344 227 391 244" stroke="#8eb8c5" stroke-width="2.7"/>
+    <path d="M-12 506C99 506 140 403 176 376S250 392 287 350 306 302 366 301" stroke="#7298af" stroke-width="2.4"/>
+    <path d="M-18 412C103 442 127 243 207 239S286 291 324 227 354 171 395 191" stroke="#ddbc80" stroke-width="3.3"/>
+    <path d="M-18 422C104 450 126 249 207 246" stroke="#ddbc80" opacity=".4"/>
+    <g fill="#132c40" stroke-width="2.7">
+      <g stroke="#e3c187"><circle cx="104" cy="353" r="7"/><circle cx="207" cy="239" r="5"/><circle cx="324" cy="227" r="5"/></g>
+      <g stroke="#9abdc5"><circle cx="191" cy="307" r="6"/><circle cx="294" cy="299" r="4"/></g>
+    </g>
+  </g>
+  <!-- Bound working volume; separate planes for boards, fore edge and spine. -->
+  <path d="m298 397 198-85 191 69-1 34-196 91-194-74Z" fill="#112e40" stroke="#bd9e6f" stroke-width="3.7" stroke-linejoin="round"/>
+  <path d="m303 398 192-80 184 64-190 89Z" fill="#31586a" stroke="#d0ae77" stroke-width="3"/>
+  <path d="m326 397 169-70 158 56-165 76Z" stroke="#b79766" stroke-width="2"/>
+  <path d="m341 397 155-64 141 49-149 69Z" stroke="#a4b8b8" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <path d="m491 475 190-88-1 22-189 88Z" fill="#b29f7c"/>
+  <g stroke="#655d51" stroke-width="1.7"><path d="m495 480 181-84m-180 91 180-83"/></g>
+  <path d="m299 404 185 70-1 23-185-70Z" fill="#204355" stroke="#ba9b6c" stroke-width="1.7"/>
+  <path d="m320 412-1 17m8-14-1 17m132 33-1 17m8-14-1 17" stroke="#c3a16d" stroke-width="3"/>
+  <!-- Open task volume; the converging curves are the engraved page lines. -->
+  <path d="m301 267 121-80q49-8 96 28 64-53 138-42l70 85-147 91q-19-8-34-3Z" fill="#183748" stroke="#d9b778" stroke-width="4.8" stroke-linejoin="round"/>
+  <path d="m310 260 117-74q42-10 90 26l31 119q-69-26-124-33Z" fill="url(#leaf)" stroke="#ebd7a8" stroke-width="2.6"/>
+  <path d="M517 212q66-54 134-44l66 83q-71 13-160 80Z" fill="url(#verso)" stroke="#e4d0a1" stroke-width="2.6"/>
+  <path d="m310 260 117-74q42-10 90 26l31 119q-69-26-124-33Z" fill="url(#grain)" opacity=".18"/>
+  <path d="M517 212q66-54 134-44l66 83q-71 13-160 80Z" fill="url(#grain)" opacity=".18"/>
+  <g stroke="#655d50" stroke-width="2.1" opacity=".86">
+    <path d="M355 249q65-45 104-49m-91 57q65-44 109-49m-95 55q69-43 107-47m-87 55q59-36 93-41m-74 47q43-25 72-31"/>
+    <path d="M541 217q54-37 98-38m-93 50q54-36 102-39m-98 52q57-40 106-43m-102 55q62-42 111-45m-106 57q55-38 97-43"/>
+  </g>
+  <g stroke="#e1c89b" stroke-linecap="round">
+    <path d="M309 266q136 39 239 70m13 0q86-63 157-80" stroke-width="2"/>
+    <path d="m519 215 35 117" stroke-width="3"/>
+  </g>
+  <path d="m599 207 15-7 43 54-9 1-4 10Z" fill="#436e81"/>
+  <!-- A short train of sparks between the volumes links the two memories. -->
+  <path d="M550 347c30 23 16 35-12 48" stroke="#e9ca88" stroke-width="2.7" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <use href="#star" transform="translate(538 397) scale(1.05)"/>
+  <use href="#star" transform="translate(801 185) scale(1.1)"/>
+  <use href="#star" transform="translate(261 126) scale(.7)"/>
+  <use href="#star" transform="translate(731 474) scale(.7)"/>
+  <use href="#star" transform="translate(130 521) scale(.8)"/>
+  <g fill="#d9bb83"><circle cx="783" cy="204" r="2.6"/><circle cx="769" cy="216" r="1.8"/><circle cx="242" cy="151" r="2"/><circle cx="716" cy="496" r="2.1"/></g>
+</svg>
